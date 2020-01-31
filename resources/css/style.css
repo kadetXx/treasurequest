@@ -1,0 +1,31 @@
+body {
+    overflow-x: hidden;
+    font-family: cursive;
+    background-color: #EAE4CC;
+}
+
+header {
+    text-align: center;
+}
+
+.map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: groove;
+    border-radius: 20px;
+}
+
+@media (max-width: 700px) {
+    .map {
+        width: 100%;
+    }
+}
+
+h1 {
+    color: #391A08;
+}
+
+h4 {
+    color: rgb(34, 37, 255);
+}
