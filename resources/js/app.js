@@ -16,25 +16,25 @@ function getDistance(event, target) {
 
 function distanceHint(distance){
     if (distance < 20) {
-        return "It's right in front of you!";
+        return "It's right in front of you Captain!";
     }
     else if (distance < 40){
-        return "Very close to treasure!"
+        return "Extremely close to treasure captain! One more step."
     }
     else if (distance < 80){
-        return "A little more effort Amigos!"
+        return "Very close to trasure, don't look too far!"
     }
     else if (distance < 160){
-        return "Getting closer... I see you have some skills"
+        return "Almost there! Stay in this area"
     }
     else if (distance < 320){
-        return "Cmon, you can do better!"
+        return "Getting closer, don't give up yet!"
     }
     else if (distance < 350){
-        return "I'm not sure you are ready for this adventure"
+        return "A bit off course, you can do better"
     }
     else {
-        return "Are you even a pirate at all?"
+        return "Totally off, are you even ready for this adventure?"
     };
 };
 
