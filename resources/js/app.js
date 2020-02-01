@@ -56,5 +56,7 @@ function clicker(event){
 
     if (distance < 8){
         alert("Welldone Pirate! Treasure found in " + clickCount + " clicks!");
+        $("#message").text("Reload Page To Start Again!")
+        $("#message").css({"color": "green"})
     };
 };
