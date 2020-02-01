@@ -24,15 +24,18 @@ header {
 
 h1 {
     color: #391A08;
+    line-height: 15px;
 }
 
 h4 {
     color: rgb(34, 37, 255);
+   
 }
 
 #distance {
     text-align: center;
     font-size: 16px;
+    line-height: 7px;
 }
 
 #over {
