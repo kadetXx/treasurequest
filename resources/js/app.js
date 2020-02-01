@@ -15,22 +15,22 @@ function getDistance(event, target) {
 };
 
 function distanceHint(distance){
-    if (distance < 10) {
+    if (distance < 20) {
         return "It's right in front of you!";
     }
-    else if (distance < 20){
+    else if (distance < 40){
         return "Very close to treasure!"
     }
-    else if (distance < 40){
+    else if (distance < 80){
         return "A little more effort Amigos!"
     }
-    else if (distance < 80){
+    else if (distance < 160){
         return "Getting closer... I see you have some skills"
     }
-    else if (distance < 160){
+    else if (distance < 320){
         return "Cmon, you can do better!"
     }
-    else if (distance < 320){
+    else if (distance < 350){
         return "I'm not sure you are ready for this adventure"
     }
     else {
