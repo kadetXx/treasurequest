@@ -56,11 +56,14 @@ function clicker(event){
     $("#distance").text(distanceHinter);
     $("#over").text("\nRemaining Clicks: " + remainder);
 
-    if (distance < 8){
+    if (distance < 20){
         alert("Welldone Pirate! Treasure found in " + clickCount + " clicks!");
         alert("Reload page to start New game");
         $("#message").text("Reload Page To Start New Game!")
         $("#message").css({"color": "green"})
+        $("#over").text("You Won!");
+        $("#over").css({"color": "green"})
+        $("#distance").hide(3000);
     };
 
     if (clickCount > 100){
@@ -68,5 +71,7 @@ function clicker(event){
         alert("Reload page to start New game");
         $("#message").text("Reload Page To Start New Game!")
         $("#message").css({"color": "green"})
+        $("#distance").hide(3000);
+        $("#over").text("You Lost!");
     };
 };
