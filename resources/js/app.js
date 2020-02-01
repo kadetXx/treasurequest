@@ -52,11 +52,11 @@ function clicker(event){
     clickCount++
     let distance = getDistance(event, target);
     let distanceHinter = distanceHint(distance);
-    let remainder = 101 - clickCount;
+    let remainder = 71 - clickCount;
     $("#distance").text(distanceHinter);
     $("#over").text("\nRemaining Clicks: " + remainder);
 
-    if (distance < 20){
+    if (distance < 15){
         alert("Welldone Pirate! Treasure found in " + clickCount + " clicks!");
         alert("Reload page to start New game");
         $("#message").text("Reload Page To Start New Game!")
@@ -66,7 +66,7 @@ function clicker(event){
         $("#distance").hide(3000);
     };
 
-    if (clickCount > 100){
+    if (clickCount > 70){
         alert("Game Over!");
         alert("Reload page to start New game");
         $("#message").text("Reload Page To Start New Game!")
