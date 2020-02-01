@@ -8,7 +8,7 @@ header {
     text-align: center;
 }
 
-.map {
+#map {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -17,7 +17,7 @@ header {
 }
 
 @media (max-width: 700px) {
-    .map {
+    #map {
         width: 100%;
     }
 }
@@ -28,4 +28,9 @@ h1 {
 
 h4 {
     color: rgb(34, 37, 255);
+}
+
+#distance {
+    text-align: center;
+    font-size: 20px;
 }

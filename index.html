@@ -16,10 +16,20 @@
         </div>
     </header>
     <div>
-        <img class="map" src="resources/images/piratemap.jpg" alt="treasure map">
+        <img id="map" src="resources/images/piratemap.jpg" alt="treasure map">
+    </div>
+    <div>
+        <p id="distance"></p>
     </div>
     <script>
-        $("h4").fadeOut(500).fadeIn(300);
+
+        $("#map").click(clicker);
+       // function blink(){
+         //   $("h4").fadeOut(500).fadeIn(300);
+       // }
+
+       // var blinkID = setInterval(blink, 1000);
+        
     </script>
 
 </body>
