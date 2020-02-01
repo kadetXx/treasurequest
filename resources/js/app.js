@@ -52,7 +52,7 @@ function clicker(event){
     clickCount++
     let distance = getDistance(event, target);
     let distanceHinter = distanceHint(distance);
-    let remainder = 71 - clickCount;
+    let remainder = 51 - clickCount;
     $("#distance").text(distanceHinter);
     $("#over").text("\nRemaining Clicks: " + remainder);
 
@@ -66,7 +66,7 @@ function clicker(event){
         $("#distance").hide(3000);
     };
 
-    if (clickCount > 70){
+    if (clickCount > 50){
         alert("Game Over!");
         alert("Reload page to start New game");
         $("#message").text("Reload Page To Start New Game!")
