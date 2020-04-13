@@ -69,7 +69,7 @@ function clicker(event){
     if (clickCount > 50){
         alert("Game Over!");
         alert("Reload page to start New game");
-        $("#message").text("Reload Page To Start New Game!")
+        $("#message").text("Reload To Start New Game!")
         $("#message").css({"color": "green"})
         $("#distance").hide(3000);
         $("#over").text("You Lost!");
